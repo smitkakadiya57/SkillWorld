@@ -1,0 +1,118 @@
+
+
+.navbar {
+    font-family: 'Crimson Pro', serif;
+    
+}
+.es{
+    flex-wrap: wrap;
+}
+.sbox {
+    width: 50vw;
+}
+
+.carousel{
+    
+    margin: 0%  auto  ;
+    
+}
+
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.labs {
+    background-color: blanchedalmond;
+    font-family: "Sofia", sans-serif;
+}
+.labs-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.labs-item img {
+    height: 20%;
+    width: 20%;
+    min-width: 200px;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.partners{
+    background-color: rgb(218, 170, 108);
+    font-family: "Sofia", sans-serif;
+}
+.partners-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.partners-item img{
+    width: 200px;
+  
+    
+    border-radius: 20px;
+    margin: 1%;
+}
+
+
+.loginbtn{
+    width: 122px;
+}
+
+.loginform{
+    
+    /* border: 2px solid green ; */
+    max-width: 70vw;
+    margin: auto ;
+    padding: 2vw;
+    border-radius: 20px;
+    background-color: white;
+   box-shadow:  0px 0px 4px 2px rgb(180 174 174);
+   margin-top: 2%;
+}
+
+
+
+h2{
+    text-align: center;
+}
+
+
+.footer {
+    background-color: khaki;
+    margin: 1% auto;
+    border: 2px solid brown;
+}
+.footer p {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+
+    
+}
+    
+    @media screen and (max-width: 600px) {
+        .loginform{
+            max-width: 100%;
+            margin: 10px ;
+            padding: 2vw;
+            border-radius: 20px;
+            background-color: white;
+        box-shadow:  0px 0px 4px 2px rgb(180 174 174);
+        margin-top: 2%;
+                    
+        }
+      }
+
+.whitespace{
+    height: 30px;
+
+}
